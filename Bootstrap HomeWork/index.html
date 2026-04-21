@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+
+    <style>
+        #m1 {
+            height: 440px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="/contact.html">Contact us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.zomato.com/india">Link</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Learn More
+
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="https://www.zomato.com/partner-with-us/new/">Add
+                                    restaurants</a></li>
+                            <li><a class="dropdown-item" href="#">Who We Are</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Blog</a></li>
+                            <li><a class="dropdown-item" href="#">Somthing about else</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+                <button class="btn btn-outline-danger">Login</button>
+                <button class="btn btn-outline-danger">SignUp</button>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <!-- carousel -->
+
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img id="m1" src="https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Zomato</h1>
+                    <p>Find the best restaurants, cafés and bars in India</p>
+                    <button class="btn btn-danger">Privacy</button>
+                    <button class="btn btn-primary">Security</button>
+                    <button class="btn btn-success">Terms</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img id="m1"
+                    src="https://imgs.search.brave.com/bdt0SHNrnWPWH23goxYV0Su2dGg0SGwohiLyufuKIFk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9taWxh/bi1pdGFseS1hdWd1/c3Qtem9tYXRvLXdl/YnNpdGUtaG9tZXBh/Z2UtcmVzdGF1cmFu/dC1zZWFyY2gtZGlz/Y292ZXJ5LXNlcnZp/Y2UtZm91bmRlZC16/b21hdG8tbG9nby12/aXNpYmxlLW1pbGFu/LTEwMzI4MjYxMi5q/cGc"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Partner with Zomato
+                        and grow your business</h1>
+                    <p>0% commission for 1st month!
+                        Valid for new restaurant partners in select cities</p>
+                    <button class="btn btn-danger">Privacy</button>
+                    <button class="btn btn-primary">Security</button>
+                    <button class="btn btn-success">Terms</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img id="m1"
+                    src="https://imgs.search.brave.com/kf3BQu73ogSzqq_cwQg_MnBpiSjlKzmz_1I9G8fDaQg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjE0/Nzg0Mzk2Ny9waG90/by9pbi10aGlzLXBo/b3RvLWlsbHVzdHJh/dGlvbi1hLXpvbWF0/by1sb2dvLWlzLWRp/c3BsYXllZC1vbi1h/LXNtYXJ0cGhvbmUt/d2l0aC1zdG9jay1t/YXJrZXQuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPW53Z2FN/UldhQlVoSmJqTFY2/dkZPS0VLVmN4cnA2/VElFdkFsYjRPUy1D/ek09"
+                    class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1>Popular locations in
+
+                        India</h1>
+                    <p>From swanky upscale restaurants to the cosiest hidden gems serving the most incredible food,
+                        Zomato covers it all. Explore menus, and millions of restaurant photos and reviews from users
+                        just like you, to find your next great meal.</p>
+                    <button class="btn btn-danger">Privacy</button>
+                    <button class="btn btn-primary">Security</button>
+                    <button class="btn btn-success">Terms</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="container ">
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static"> <strong
+                            class="d-inline-block mb-2 text-primary-emphasis">Zomato</strong>
+                        <h3 class="mb-0">Better food for
+                            more people</h3>
+                        <div class="mb-1 text-body-secondary">Day To Day</div>
+                        <p class="card-text mb-auto">For over a decade, we’ve enabled our customers to discover new
+                            tastes, delivered right to their doorstep.</p> <a href="#"
+                            class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi" aria-hidden="true">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg> </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img " height="250" preserveAspectRatio="xMidYMid slice" role="img"
+                            width="200"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Zomato.svg/1024px-Zomato.svg.png">
+                        <!-- <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img "
+            height="250" preserveAspectRatio="xMidYMid slice" role="img" width="200" xmlns="http://www.w3.org/2000/svg">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em">Thumbnail</text>
+          </svg>  -->
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static"> <strong
+                            class="d-inline-block mb-2 text-success-emphasis">Zomato</strong>
+                        <h3 class="mb-0">What’s waiting for you
+                            on the app?</h3>
+                        <div class="mb-1 text-body-secondary">Best food</div>
+                        <p class="mb-auto">Our app is packed with features that enable you to experience food delivery
+                            like never before
+                        </p> <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi" aria-hidden="true">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg>
+
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img " height="250" preserveAspectRatio="xMidYMid slice" role="img"
+                            width="200"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Foodlogo2.svg/1280px-Foodlogo2.svg.png"
+                            alt="">
+                        <!-- <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img "
+            height="250" preserveAspectRatio="xMidYMid slice" role="img" width="200" xmlns=" http://www.w3.org/2000/svg">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em">Thumbnail</text>
+          </svg>  -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static"> <strong
+                            class="d-inline-block mb-2 text-success-emphasis">Zomato</strong>
+                        <h3 class="mb-0">Zomato india's #1 food delivery app</h3>
+                        <div class="mb-1 text-body-secondary">Location In All Over India</div>
+                        <p class="mb-auto">Experience fast & easy online ordering
+                            on the Zomato app
+                        </p> <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi" aria-hidden="true">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg>
+
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img " height="250" preserveAspectRatio="xMidYMid slice" role="img"
+                            width="200"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Availability_of_Zomato.svg/1920px-Availability_of_Zomato.svg.png"
+                            alt="">
+                        <!-- <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img "
+            height="250" preserveAspectRatio="xMidYMid slice" role="img" width="200" xmlns=" http://www.w3.org/2000/svg">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em">Thumbnail</text>
+          </svg>  -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static"> <strong
+                            class="d-inline-block mb-2 text-success-emphasis">Zomato</strong>
+                        <h3 class="mb-0">Order Foood</h3>
+                        <div class="mb-1 text-body-secondary">Foodlogo2</div>
+                        <p class="mb-auto">India’s largest Food Delivery, Dining and Restaurant Discovery Service. Better food for more people.
+                        </p> <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                            Continue reading
+                            <svg class="bi" aria-hidden="true">
+                                <use xlink:href="#chevron-right"></use>
+                            </svg>
+
+                        </a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img class="bd-placeholder-img " height="250" preserveAspectRatio="xMidYMid slice" role="img"
+                            width="200"
+                            src="https://imgs.search.brave.com/70IQaPKcifA8RlhqA6agH60FZslt4Nr4NO1VJRh69wU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudG9paW1nLmNv/bS90aHVtYi9tc2lk/LTExMjYxODYxNCxp/bWdzaXplLTQwMjcy/LHdpZHRoLTQwMCxy/ZXNpemVtb2RlLTQv/MTEyNjE4NjE0Lmpw/Zw"
+                            alt="">
+                        <!-- <svg aria-label="Placeholder: Thumbnail" class="bd-placeholder-img "
+            height="250" preserveAspectRatio="xMidYMid slice" role="img" width="200" xmlns=" http://www.w3.org/2000/svg">
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+              dy=".3em">Thumbnail</text>
+          </svg>  -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container">
+        <p class="float-end"><a href="#">Back to top</a></p>
+        <p>© 2017–2025 Company, Inc. · <a href="#">Privacy</a>
+            · <a href="#">Terms</a></p>
+    </footer>
+
+    <!-- <div class="relative overflow-hidden w-full h-full"><img src="https://b.zmtcdn.com/data/o2_assets/52c985ee025e442b74fb4c91cbe20ced1743099385.png" alt="Zomato logo" class="transition-opacity duration-200 opacity-0 absolute top-0 left-0 w-full h-full object-cover" loading="eager"><video src="https://b.zmtcdn.com/data/file_assets/2627bbed9d6c068e50d2aadcca11ddbb1743095925.mp4" class="transition-opacity duration-400 overflow-clip pointer-events-none w-full h-full object-cover opacity-100" autoplay="" loop="" playsinline="" loading="lazy" style="overflow-clip-margin: content-box;"></video></div> -->
+
+
+
+
+
+
+</body>
+
+</html>
